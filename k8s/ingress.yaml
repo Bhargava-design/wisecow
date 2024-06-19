@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - yourdomain.com
+    - mywisecow.duckdns.org # Change this to your DuckDNS subdomain
     secretName: wisecow-tls
   rules:
-  - host: yourdomain.com
+  - host: mywisecow.duckdns.org # Change this to your DuckDNS subdomain
     http:
       paths:
       - path: /
