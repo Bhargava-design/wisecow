@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: yourusername/wisecow:latest
+        image:  bhargavaguduru/wisecow:latest
         ports:
         - containerPort: 8000
